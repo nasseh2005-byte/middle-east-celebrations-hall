@@ -134,6 +134,8 @@ h2{font-size:clamp(42px,4.4vw,72px);margin-bottom:25px;text-wrap:balance}
 .footer-grid>div:not(:first-child){display:flex;flex-direction:column;align-items:flex-start}
 .footer-grid a{color:#bfb8ae;font-size:14px;line-height:2.3;transition:color .2s}
 .footer-grid a:hover{color:#e3c68c}
+.footer-grid a.social-link{color:#d8b879}
+.footer-grid a.social-link:hover{color:#f1d7a4}
 .footer-bottom{border-top:1px solid rgba(197,165,107,.18);padding-top:19px;display:flex;justify-content:space-between;gap:20px;color:#8e877e;font-size:12px}
 .footer-bottom a{color:#c5a56b}
 /* Gallery page */
@@ -223,6 +225,10 @@ h2{font-size:clamp(42px,4.4vw,72px);margin-bottom:25px;text-wrap:balance}
 .contact-icon{width:46px;height:46px;display:grid;place-items:center;border:1px solid var(--gold);border-radius:50%;color:var(--gold);font-size:24px;flex:none}
 .contact-option[href^="https://wa.me"] .contact-icon,.mobile-contact-bar a[href^="https://wa.me"] span:first-child{font-size:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='none' stroke='%23c5a56b' stroke-width='2.1' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 25 4 28l1.5-6A12 12 0 1 1 10 26Z'/%3E%3Cpath d='M11 10c-1 0-2 2-1 4 2 4 5 7 9 8 2 .5 4-1 4-2l-4-2-2 2c-2-1-4-3-5-5l2-2-2-3Z'/%3E%3C/svg%3E");background-position:center;background-repeat:no-repeat;background-size:25px 25px}
 .social-links{display:flex;gap:22px;flex-wrap:wrap}.social-links a{color:var(--gold);border-bottom:1px solid var(--gold);font:600 13px "DM Sans",sans-serif;padding-bottom:4px}
+.social-link{display:inline-flex;align-items:center;gap:9px;direction:ltr}
+.social-icon{display:inline-block;width:19px;height:19px;flex:none;background:currentColor;mask-position:center;mask-repeat:no-repeat;mask-size:contain;-webkit-mask-position:center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain}
+.social-icon-instagram{mask-image:url("assets/icons/instagram.svg");-webkit-mask-image:url("assets/icons/instagram.svg")}
+.social-icon-tiktok{mask-image:url("assets/icons/tiktok.svg");-webkit-mask-image:url("assets/icons/tiktok.svg")}
 .booking-form{background:var(--surface);border:1px solid var(--line);padding:clamp(24px,3vw,42px);box-shadow:var(--shadow)}
 .booking-form h3{font:400 34px var(--font-display);margin:0 0 22px;color:var(--gold-bright)}
 .form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
