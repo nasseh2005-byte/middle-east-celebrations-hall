@@ -42,7 +42,7 @@
   const savedLang = sessionStorage.getItem("mehall-language");
   const savedTheme = sessionStorage.getItem("mehall-theme");
   let lang = savedLang === "en" ? "en" : "ar";
-  let theme = savedTheme === "light" ? "light" : "dark";
+  let theme = savedTheme === "dark" ? "dark" : "light";
 
   function applyLanguage() {
     html.lang = lang;
@@ -110,6 +110,19 @@
 
   applyLanguage();
   applyTheme();
+
+  document.querySelectorAll(".preview-tile img[data-fallback]").forEach(img => {
+    const recover = () => {
+      if (img.dataset.fallbackTried === "true") {
+        img.style.visibility = "hidden";
+        return;
+      }
+      img.dataset.fallbackTried = "true";
+      img.src = img.dataset.fallback;
+    };
+    img.addEventListener("error", recover);
+    if (img.complete && img.naturalWidth === 0) recover();
+  });
 
   document.getElementById("booking-form")?.addEventListener("submit", event => {
     event.preventDefault();
