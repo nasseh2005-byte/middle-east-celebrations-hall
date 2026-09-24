@@ -2,12 +2,14 @@
   const copy = {
     ar: {
       skip: "تخطَّ إلى المحتوى", skipIntro: "تخطي المقدمة", brand: "قاعة الشرق الأوسط", brandSub: "للإحتفالات",
-      navAbout: "عن القاعة", navOccasions: "المناسبات", navGallery: "المعرض", navReviews: "التقييمات", navLocation: "الموقع", bookNow: "احجز مناسبتك",
+      navAbout: "عن القاعة", navOccasions: "المناسبات", navGallery: "المعرض", navReviews: "التقييمات", navLocation: "الموقع", navBooking: "الحجز", bookNow: "احجز مناسبتك",
       heroEyebrow: "جدة · حي الرحاب", heroTitle: "لحظات تستحق أن تُروى|بكل فخامة", heroDescription: "في قاعة الشرق الأوسط، تتلاقى أناقة المكان مع دفء الاحتفال لتصنعوا ذكريات تبقى. مساحات رحبة وتفاصيل مُعدّة بعناية ليومكم الأجمل.", exploreHall: "اكتشف القاعة", browseGallery: "شاهد المعرض", scrollHint: "مرّر لاكتشاف المزيد",
-      statHalls: "قاعتان منفصلتان", statGuests: "ضيف في كل قسم بحد أقصى", statEvents: "أنواع مناسبات وأكثر",
+      statHalls: "قاعتان منفصلتان", statGuests: "سعة تقارب ٤٠٠ ضيف", statEvents: "أنواع من المناسبات",
       aboutEyebrow: "لمسة من الفخامة", aboutTitle: "المكان الذي يليق|بأجمل أيامكم", aboutText: "في قلب حي الرحاب بجدة، تستقبلكم قاعة الشرق الأوسط بمساحات واسعة وتفاصيل أنيقة تمنح كل مناسبة طابعها الخاص. من لحظة الدخول حتى آخر لحظة في الحفل، يجد ضيوفكم أجواءً مُهيّأة للاحتفاء بكم.", aboutText2: "تضم القاعة قسمين مستقلين للرجال والنساء، مع ممر للزفة، منصة للاحتفال، مساحات للضيافة وتجهيزات صوتية وضوئية.", discoverServices: "تعرّف على مرافق القاعة",
-      occasionsEyebrow: "لكل فرحة مكان", occasionsTitle: "احتفالات تُشبهكم", occasionsIntro: "نفتح أبوابنا للحظات التي تجمع الأحبة وتستحق احتفالاً استثنائياً.", weddings: "حفلات الزفاف", weddingsText: "بداية حكاية جديدة في أجواء تليق بليلة العمر.", graduations: "حفلات التخرج", graduationsText: "احتفاء بسنوات الإنجاز وبداية خطوة جديدة.", privateEvents: "الحفلات الخاصة", privateEventsText: "تفاصيل مرنة تناسب مناسبات العائلة والأصدقاء.", exclusiveEvents: "المناسبات الحصرية", exclusiveEventsText: "مساحة راقية للفعاليات واللقاءات المميزة.",
-      servicesEyebrow: "ما يميز المكان", servicesTitle: "كل تفصيل|له حضوره", servicesIntro: "من المساحة إلى الضيافة، تتكامل عناصر القاعة لتمنحكم تجربة احتفال مريحة وأنيقة.", askPrice: "استفسر عن الباقات والأسعار", service1: "قاعتان مستقلتان للرجال والنساء", service2: "ممر ودرج للزفة ومنصة للاحتفال", service3: "جناح خاص للعروس ومساحات للضيافة", service4: "بوفيه وخيارات للضيافة", service5: "تجهيزات صوتية وإضاءة", service6: "مواقف مخصصة للسيارات",
+      occasionsEyebrow: "لكل فرحة مكان", occasionsTitle: "احتفالات تُشبهكم", occasionsIntro: "نفتح أبوابنا للحظات التي تجمع الأحبة وتستحق احتفالاً استثنائياً.", weddings: "زواج", weddingsText: "ليلة تليق ببداية حكايتكما.", marriageContract: "عقد قران", marriageContractText: "بداية مباركة في أجواء حميمية.", graduations: "تخرج", graduationsText: "فرحة الإنجاز والخطوة القادمة.", babyWelcome: "سبوع المولود", babyWelcomeText: "استقبال صغيركم بفرحة كبيرة.", concerts: "حفلات غنائية", concertsText: "أجواء موسيقية تنبض بالحياة.", festivals: "فعاليات ومهرجانات", festivalsText: "مساحة لاستضافة اللقاءات الكبيرة.", birthdays: "أعياد ميلاد", birthdaysText: "ذكريات جميلة حول من نحب.",
+      servicesEyebrow: "ما يميز المكان", servicesTitle: "كل تفصيل|له حضوره", servicesIntro: "من المساحة إلى الضيافة، تتكامل عناصر القاعة لتمنحكم تجربة احتفال مريحة وأنيقة.", askPrice: "استفسر عن الباقات والأسعار", service1: "قاعتان مستقلتان للرجال والنساء", service2: "ممر ودرج للزفة ومنصة للاحتفال", service3: "جناح خاص للعروس ومساحات للضيافة", service4: "بوفيه فاخر حسب طلب المناسبة", service5: "نظام صوتيات وإضاءة للمناسبات", service6: "شاشة إلكترونية للكوشة", service7: "تنسيق المساحات حسب نوع الحفل",
+      buffetEyebrow: "ضيافة تليق بكم", buffetTitle: "مذاق يكمّل|روعة المناسبة", buffetText: "بوفيه أنيق بخيارات من الأطباق الفاخرة والمقبلات والحلويات. تُنسّق قائمة الضيافة حسب رغبتكم وطبيعة المناسبة، لتكون كل تفاصيل المائدة على ذوقكم.", buffetPoint1: "أطباق رئيسية", buffetPoint2: "مقبلات وحلويات", buffetPoint3: "خيارات حسب الطلب", buffetCaption: "تفاصيل الضيافة تصنع الفرق", planBuffet: "استفسر عن خيارات البوفيه",
+      bookingEyebrow: "تواصل وحجز", bookingTitle: "لنخطط يومكم|كما تتمنّون", bookingIntro: "أرسلوا تفاصيل مناسبتكم وسنستقبل طلبكم مباشرة عبر واتساب. الأسعار والمواعيد متاحة بالتواصل.", whatsappLabel: "واتساب الحجز", callLabel: "تواصل معنا", formTitle: "طلب مناسبة", formName: "الاسم", formPhone: "رقم الجوال", formOccasion: "نوع المناسبة", formChoose: "اختر المناسبة", formDate: "التاريخ المتوقع", formGuests: "عدد الضيوف المتوقع", formNotes: "تفاصيل إضافية", formSubmit: "إرسال الطلب عبر واتساب", formHint: "سيفتح واتساب مع رسالة جاهزة بتفاصيل طلبك.",
       galleryEyebrow: "لحظات من داخل القاعة", galleryTitle: "اكتشفوا المكان", allGallery: "المعرض الكامل للصور والفيديوهات", previewHall: "القاعة", previewDetails: "التفاصيل", previewVideos: "الفيديوهات",
       reviewsEyebrow: "آراء الضيوف", reviewsTitle: "تجارب تُحكى|بصدق", reviewsText: "اقرأوا تقييمات الزوار وتجاربهم المنشورة على خرائط Google، وتعرّفوا على القاعة من خلال من احتفلوا فيها.", readGoogle: "اقرأ التقييمات على Google",
       locationEyebrow: "زورونا", locationTitle: "في قلب جدة", locationText: "حي الرحاب، طريق الحرمين السريع، بين كوبري التحلية وكوبري فلسطين، جدة.", directions: "افتح الموقع في خرائط Google",
@@ -18,12 +20,14 @@
     },
     en: {
       skip: "Skip to content", skipIntro: "Skip intro", brand: "Middle East Hall", brandSub: "CELEBRATIONS", 
-      navAbout: "The hall", navOccasions: "Occasions", navGallery: "Gallery", navReviews: "Reviews", navLocation: "Location", bookNow: "Plan your event",
+      navAbout: "The hall", navOccasions: "Occasions", navGallery: "Gallery", navReviews: "Reviews", navLocation: "Location", navBooking: "Booking", bookNow: "Plan your event",
       heroEyebrow: "JEDDAH · AL-REHAB", heroTitle: "Moments worth remembering|in every detail", heroDescription: "At Middle East Celebrations Hall, elegant spaces and thoughtful details create a setting for memories that last. Celebrate your most meaningful day with those who matter most.", exploreHall: "Explore the hall", browseGallery: "View gallery", scrollHint: "Scroll to discover",
-      statHalls: "separate halls", statGuests: "guests per section (up to)", statEvents: "types of occasions and more",
+      statHalls: "separate halls", statGuests: "approximate guest capacity", statEvents: "types of occasions",
       aboutEyebrow: "A touch of elegance", aboutTitle: "A place made for|your finest moments", aboutText: "In Jeddah's Al-Rehab district, Middle East Celebrations Hall welcomes you with generous spaces and refined details. From the first arrival to the final moment, the venue sets the scene for a celebration of your own.", aboutText2: "The venue has separate men's and women's sections, a ceremonial staircase and aisle, a celebration stage, hospitality spaces, and sound and lighting facilities.", discoverServices: "Discover the facilities",
-      occasionsEyebrow: "A place for every joy", occasionsTitle: "Celebrations that feel like you", occasionsIntro: "We welcome the moments that bring loved ones together and deserve a special setting.", weddings: "Weddings", weddingsText: "Begin a new story in a setting worthy of the occasion.", graduations: "Graduations", graduationsText: "Celebrate years of achievement and a new beginning.", privateEvents: "Private celebrations", privateEventsText: "A welcoming space for family and friends.", exclusiveEvents: "Exclusive occasions", exclusiveEventsText: "An elegant setting for distinguished events and gatherings.",
-      servicesEyebrow: "What makes it special", servicesTitle: "Every detail|has its place", servicesIntro: "From space to hospitality, the hall's features come together for a comfortable, elegant celebration.", askPrice: "Ask about packages and prices", service1: "Separate halls for men and women", service2: "Ceremonial aisle, staircase and stage", service3: "Private bridal suite and hospitality spaces", service4: "Buffet and hospitality options", service5: "Sound and lighting facilities", service6: "Dedicated parking",
+      occasionsEyebrow: "A place for every joy", occasionsTitle: "Celebrations that feel like you", occasionsIntro: "We welcome the moments that bring loved ones together and deserve a special setting.", weddings: "Weddings", weddingsText: "A beautiful setting for the start of your story.", marriageContract: "Marriage contracts", marriageContractText: "A blessed beginning in an intimate setting.", graduations: "Graduations", graduationsText: "Celebrate every achievement and new beginning.", babyWelcome: "Baby welcomes", babyWelcomeText: "Welcome your little one with a big celebration.", concerts: "Concerts", concertsText: "Musical moments full of life.", festivals: "Events & festivals", festivalsText: "A space for larger gatherings.", birthdays: "Birthdays", birthdaysText: "Make memories with the people you love.",
+      servicesEyebrow: "What makes it special", servicesTitle: "Every detail|has its place", servicesIntro: "From space to hospitality, the hall's features come together for a comfortable, elegant celebration.", askPrice: "Ask about packages and prices", service1: "Separate halls for men and women", service2: "Ceremonial aisle, staircase and stage", service3: "Private bridal suite and hospitality spaces", service4: "Luxury buffet tailored to your event", service5: "Sound and lighting for celebrations", service6: "Electronic stage backdrop screen", service7: "Flexible event layout",
+      buffetEyebrow: "REFINED HOSPITALITY", buffetTitle: "A taste to complete|the celebration", buffetText: "An elegant buffet with a selection of refined main dishes, starters and desserts. Hospitality options are arranged to suit your preferences and the nature of your event.", buffetPoint1: "Main dishes", buffetPoint2: "Starters & desserts", buffetPoint3: "Tailored options", buffetCaption: "Hospitality is in the details", planBuffet: "Ask about buffet options",
+      bookingEyebrow: "CONTACT & BOOKING", bookingTitle: "Let's plan your day|your way", bookingIntro: "Share your event details and send your request directly through WhatsApp. Contact us for availability and pricing.", whatsappLabel: "Booking WhatsApp", callLabel: "Call us", formTitle: "Event inquiry", formName: "Name", formPhone: "Mobile number", formOccasion: "Occasion", formChoose: "Choose an occasion", formDate: "Preferred date", formGuests: "Estimated guests", formNotes: "More details", formSubmit: "Send via WhatsApp", formHint: "WhatsApp will open with your completed inquiry.",
       galleryEyebrow: "A look inside", galleryTitle: "Discover the venue", allGallery: "Full photo and video gallery", previewHall: "The hall", previewDetails: "Details", previewVideos: "Videos",
       reviewsEyebrow: "Guest experiences", reviewsTitle: "Stories shared|by our guests", reviewsText: "Read visitors' reviews and experiences on Google Maps, and discover the venue through the people who celebrated here.", readGoogle: "Read reviews on Google",
       locationEyebrow: "Visit us", locationTitle: "In the heart of Jeddah", locationText: "Al-Rehab district, Al-Haramain Expressway, between Tahlia Bridge and Palestine Bridge, Jeddah.", directions: "Open in Google Maps",
@@ -107,18 +111,17 @@
   applyLanguage();
   applyTheme();
 
-  const intro = document.getElementById("intro");
-  if (intro && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    intro.hidden = false;
-    let closed = false;
-    const closeIntro = () => {
-      if (closed) return;
-      closed = true;
-      intro.hidden = true;
-    };
-    document.getElementById("intro-skip")?.addEventListener("click", closeIntro);
-    window.setTimeout(closeIntro, 6250);
-  }
+  document.getElementById("booking-form")?.addEventListener("submit", event => {
+    event.preventDefault();
+    const data = new FormData(event.currentTarget);
+    const labels = lang === "ar"
+      ? ["الاسم", "الجوال", "المناسبة", "التاريخ", "عدد الضيوف", "التفاصيل"]
+      : ["Name", "Mobile", "Occasion", "Date", "Guests", "Details"];
+    const values = ["name", "phone", "occasion", "date", "guests", "notes"].map(key => String(data.get(key) || "").trim());
+    const lines = values.map((value, index) => value ? `${labels[index]}: ${value}` : "").filter(Boolean);
+    const heading = lang === "ar" ? "مرحباً، أرغب بالاستفسار عن حجز قاعة الشرق الأوسط للإحتفالات." : "Hello, I would like to inquire about booking Middle East Celebrations Hall.";
+    window.location.href = `https://wa.me/966566766562?text=${encodeURIComponent([heading, ...lines].join("\n"))}`;
+  });
 
   window.mehall = { getLanguage: () => lang, text: key => copy[lang][key] };
 })();

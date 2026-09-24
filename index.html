@@ -16,22 +16,10 @@
 <body data-page="home">
   <a class="skip-link" href="#main" data-i18n="skip">تخطَّ إلى المحتوى</a>
 
-  <div class="intro" id="intro" hidden aria-hidden="true">
-    <div class="intro-inner">
-      <div class="intro-line"></div>
-      <img class="intro-logo" src="assets/brand-logo.png" alt="">
-      <p class="intro-caption" data-i18n="copyright">قاعة الشرق الأوسط للإحتفالات</p>
-      <p class="intro-english">MIDDLE EAST CELEBRATIONS HALL</p>
-      <div class="intro-line"></div>
-    </div>
-    <img class="intro-couple" src="assets/dancing-couple.png" alt="">
-    <button class="intro-skip" type="button" id="intro-skip" data-i18n="skipIntro">تخطي المقدمة</button>
-  </div>
-
   <header class="site-header" id="top">
     <div class="shell header-shell">
       <a class="brand" href="index.html" aria-label="قاعة الشرق الأوسط للإحتفالات">
-        <img src="assets/brand-logo.png" alt="شعار قاعة الشرق الأوسط" width="60" height="60">
+        <img src="assets/brand-logo-transparent.png" alt="شعار قاعة الشرق الأوسط" width="76" height="70">
         <span class="brand-text"><strong data-i18n="brand">قاعة الشرق الأوسط</strong><small data-i18n="brandSub">للإحتفالات</small></span>
       </a>
       <nav class="site-nav" id="site-nav" aria-label="التنقل الرئيسي">
@@ -40,6 +28,7 @@
         <a href="#gallery" data-i18n="navGallery">المعرض</a>
         <a href="#reviews" data-i18n="navReviews">التقييمات</a>
         <a href="#location" data-i18n="navLocation">الموقع</a>
+        <a href="#booking" data-i18n="navBooking">الحجز</a>
       </nav>
       <div class="header-actions">
         <button class="icon-button" id="theme-toggle" type="button" aria-label="تفعيل الوضع الفاتح" title="الوضع الفاتح"><span aria-hidden="true">☼</span></button>
@@ -54,7 +43,7 @@
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-photo" role="img" aria-label="قاعة الشرق الأوسط مجهزة للاحتفال"></div>
       <div class="hero-wash"></div>
-      <div class="hero-ornament" aria-hidden="true">ME</div>
+      <div class="hero-dancers" aria-hidden="true"><img src="assets/dancing-couple.png" alt=""></div>
       <div class="shell hero-content">
         <p class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span><span data-i18n="heroEyebrow">جدة · حي الرحاب</span></p>
         <h1 id="hero-title" data-i18n="heroTitle">لحظات تستحق أن تُروى<br>بكل فخامة</h1>
@@ -70,8 +59,8 @@
     <section class="intro-stats" aria-label="لمحة عن القاعة">
       <div class="shell stats-grid">
         <div><strong>02</strong><span data-i18n="statHalls">قاعتان منفصلتان</span></div>
-        <div><strong>500</strong><span data-i18n="statGuests">حتى ٥٠٠ ضيف لكل قسم</span></div>
-        <div><strong>04</strong><span data-i18n="statEvents">أنواع مناسبات وأكثر</span></div>
+        <div><strong>400</strong><span data-i18n="statGuests">سعة تقارب ٤٠٠ ضيف</span></div>
+        <div><strong>07</strong><span data-i18n="statEvents">أنواع من المناسبات</span></div>
       </div>
     </section>
 
@@ -99,10 +88,13 @@
           <p data-i18n="occasionsIntro">نفتح أبوابنا للحظات التي تجمع الأحبة وتستحق احتفالاً استثنائياً.</p>
         </div>
         <div class="occasion-grid">
-          <article class="occasion-card"><span class="occasion-number">01</span><span class="occasion-symbol" aria-hidden="true">✧</span><h3 data-i18n="weddings">حفلات الزفاف</h3><p data-i18n="weddingsText">بداية حكاية جديدة في أجواء تليق بليلة العمر.</p></article>
-          <article class="occasion-card"><span class="occasion-number">02</span><span class="occasion-symbol" aria-hidden="true">✦</span><h3 data-i18n="graduations">حفلات التخرج</h3><p data-i18n="graduationsText">احتفاء بسنوات الإنجاز وبداية خطوة جديدة.</p></article>
-          <article class="occasion-card"><span class="occasion-number">03</span><span class="occasion-symbol" aria-hidden="true">❋</span><h3 data-i18n="privateEvents">الحفلات الخاصة</h3><p data-i18n="privateEventsText">تفاصيل مرنة تناسب مناسبات العائلة والأصدقاء.</p></article>
-          <article class="occasion-card"><span class="occasion-number">04</span><span class="occasion-symbol" aria-hidden="true">✺</span><h3 data-i18n="exclusiveEvents">المناسبات الحصرية</h3><p data-i18n="exclusiveEventsText">مساحة راقية للفعاليات واللقاءات المميزة.</p></article>
+          <article class="occasion-card"><span class="occasion-number">01</span><svg class="occasion-art wedding-art" viewBox="0 0 90 90" aria-hidden="true"><path class="pulse" d="M45 18c-8-11-20-2-12 8l12 12 12-12c8-10-4-19-12-8Z"/><g class="sway"><circle cx="30" cy="47" r="6"/><circle cx="60" cy="47" r="6"/><path d="M19 76c1-15 4-21 11-21s10 6 11 21M49 76c1-15 4-21 11-21s10 6 11 21M39 62l6 5 6-5"/></g></svg><h3 data-i18n="weddings">زواج</h3><p data-i18n="weddingsText">ليلة تليق ببداية حكايتكما.</p></article>
+          <article class="occasion-card"><span class="occasion-number">02</span><svg class="occasion-art" viewBox="0 0 90 90" aria-hidden="true"><path d="M45 26c-8-7-20-8-30-4v42c11-4 22-3 30 4 8-7 19-8 30-4V22c-10-4-22-3-30 4Zm0 0v42M22 33c7-2 13-1 17 3M51 36c5-4 11-5 17-3"/><path class="pulse" d="M45 50c-7-9-15-1-8 6l8 8 8-8c7-7-1-15-8-6Z"/></svg><h3 data-i18n="marriageContract">عقد قران</h3><p data-i18n="marriageContractText">بداية مباركة في أجواء حميمية.</p></article>
+          <article class="occasion-card"><span class="occasion-number">03</span><svg class="occasion-art graduation-art" viewBox="0 0 90 90" aria-hidden="true"><g class="toss"><path d="m45 15 28 12-28 12-28-12 28-12Zm17 18v10M28 34v10c10 9 24 9 34 0V34"/></g><circle cx="45" cy="56" r="6"/><path d="M28 78c2-12 8-17 17-17s15 5 17 17M26 69l-9-11M64 69l9-11"/></svg><h3 data-i18n="graduations">تخرج</h3><p data-i18n="graduationsText">فرحة الإنجاز والخطوة القادمة.</p></article>
+          <article class="occasion-card"><span class="occasion-number">04</span><svg class="occasion-art baby-art" viewBox="0 0 90 90" aria-hidden="true"><path class="rock" d="M17 44h56c-1 18-11 29-28 29S18 62 17 44Zm28 0V23c13 0 24 8 28 21M26 76l-6 5M64 76l6 5"/><path class="pulse" d="M23 24v10m-5-5h10M66 16v10m-5-5h10"/></svg><h3 data-i18n="babyWelcome">سبوع المولود</h3><p data-i18n="babyWelcomeText">استقبال صغيركم بفرحة كبيرة.</p></article>
+          <article class="occasion-card"><span class="occasion-number">05</span><svg class="occasion-art concert-art" viewBox="0 0 90 90" aria-hidden="true"><circle cx="25" cy="45" r="6"/><circle cx="45" cy="39" r="6"/><circle cx="65" cy="45" r="6"/><path d="M13 72c1-10 5-17 12-17s11 7 12 17M33 69c1-11 5-20 12-20s11 9 12 20M53 72c1-10 5-17 12-17s11 7 12 17"/><g class="notes"><path d="M24 16v14a4 4 0 1 1-3-4m3-10 12-3v14a4 4 0 1 1-3-4M60 14v15a4 4 0 1 1-3-4"/></g></svg><h3 data-i18n="concerts">حفلات غنائية</h3><p data-i18n="concertsText">أجواء موسيقية تنبض بالحياة.</p></article>
+          <article class="occasion-card"><span class="occasion-number">06</span><svg class="occasion-art festival-art" viewBox="0 0 90 90" aria-hidden="true"><path d="M14 75h62M19 75V45l26-18 26 18v30M31 75V55h28v20M15 39l30-22 30 22"/><g class="spark"><path d="M45 8v8M19 15l5 6M71 15l-5 6M9 28l8 3M81 28l-8 3"/></g></svg><h3 data-i18n="festivals">فعاليات ومهرجانات</h3><p data-i18n="festivalsText">مساحة لاستضافة اللقاءات الكبيرة.</p></article>
+          <article class="occasion-card"><span class="occasion-number">07</span><svg class="occasion-art birthday-art" viewBox="0 0 90 90" aria-hidden="true"><path d="M17 50h56v24H17V50Zm0 10c7 6 14 6 21 0 7 6 14 6 21 0 5 5 10 5 14 0M23 50v-8h44v8M33 42V27M45 42V27M57 42V27"/><g class="flame"><path d="M33 25c-4-4-2-8 0-11 3 3 4 7 0 11Zm12 0c-4-4-2-8 0-11 3 3 4 7 0 11Zm12 0c-4-4-2-8 0-11 3 3 4 7 0 11Z"/></g></svg><h3 data-i18n="birthdays">أعياد ميلاد</h3><p data-i18n="birthdaysText">ذكريات جميلة حول من نحب.</p></article>
         </div>
       </div>
     </section>
@@ -119,10 +111,18 @@
           <div class="service-row"><span>01</span><h3 data-i18n="service1">قاعتان مستقلتان للرجال والنساء</h3><span aria-hidden="true">✧</span></div>
           <div class="service-row"><span>02</span><h3 data-i18n="service2">ممر ودرج للزفة ومنصة للاحتفال</h3><span aria-hidden="true">✧</span></div>
           <div class="service-row"><span>03</span><h3 data-i18n="service3">جناح خاص للعروس ومساحات للضيافة</h3><span aria-hidden="true">✧</span></div>
-          <div class="service-row"><span>04</span><h3 data-i18n="service4">بوفيه وخيارات للضيافة</h3><span aria-hidden="true">✧</span></div>
-          <div class="service-row"><span>05</span><h3 data-i18n="service5">تجهيزات صوتية وإضاءة</h3><span aria-hidden="true">✧</span></div>
-          <div class="service-row"><span>06</span><h3 data-i18n="service6">مواقف مخصصة للسيارات</h3><span aria-hidden="true">✧</span></div>
+          <div class="service-row"><span>04</span><h3 data-i18n="service4">بوفيه فاخر حسب طلب المناسبة</h3><span aria-hidden="true">✧</span></div>
+          <div class="service-row"><span>05</span><h3 data-i18n="service5">نظام صوتيات وإضاءة للمناسبات</h3><span aria-hidden="true">✧</span></div>
+          <div class="service-row"><span>06</span><h3 data-i18n="service6">شاشة إلكترونية للكوشة</h3><span aria-hidden="true">✧</span></div>
+          <div class="service-row"><span>07</span><h3 data-i18n="service7">تنسيق المساحات حسب نوع الحفل</h3><span aria-hidden="true">✧</span></div>
         </div>
+      </div>
+    </section>
+
+    <section class="section buffet-section" id="buffet">
+      <div class="shell buffet-grid">
+        <div class="buffet-copy"><p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="buffetEyebrow">ضيافة تليق بكم</span></p><h2 data-i18n="buffetTitle">مذاق يكمّل|روعة المناسبة</h2><p data-i18n="buffetText">بوفيه أنيق بخيارات من الأطباق الفاخرة والمقبلات والحلويات. تُنسّق قائمة الضيافة حسب رغبتكم وطبيعة المناسبة، لتكون كل تفاصيل المائدة على ذوقكم.</p><div class="buffet-points"><span data-i18n="buffetPoint1">أطباق رئيسية</span><span data-i18n="buffetPoint2">مقبلات وحلويات</span><span data-i18n="buffetPoint3">خيارات حسب الطلب</span></div><a class="text-link" href="#booking"><span data-i18n="planBuffet">استفسر عن خيارات البوفيه</span><span aria-hidden="true">←</span></a></div>
+        <div class="buffet-visual"><img src="assets/photos/p09.webp" alt="تجهيز طاولات الضيافة في القاعة" loading="lazy"><span data-i18n="buffetCaption">تفاصيل الضيافة تصنع الفرق</span></div>
       </div>
     </section>
 
@@ -154,9 +154,11 @@
       </div>
     </section>
 
-    <section class="closing-cta"><div class="shell closing-inner"><p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="closingEyebrow">ننتظر لحظتكم</span><span class="eyebrow-line"></span></p><h2 data-i18n="closingTitle">دعونا نحتفل بكم</h2><p data-i18n="closingText">للاستفسار عن المواعيد والباقات والأسعار، تواصلوا معنا مباشرة.</p><a class="button" href="https://wa.me/966566766562?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AD%D8%AC%D8%B2%20%D8%A7%D9%84%D9%82%D8%A7%D8%B9%D8%A9" target="_blank" rel="noopener"><span data-i18n="contactWhatsapp">تواصل عبر واتساب</span><span class="button-arrow" aria-hidden="true">↗</span></a></div></section>
+    <section class="section booking-section" id="booking"><div class="shell booking-grid"><div class="booking-copy"><p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="bookingEyebrow">تواصل وحجز</span></p><h2 data-i18n="bookingTitle">لنخطط يومكم|كما تتمنّون</h2><p data-i18n="bookingIntro">أرسلوا تفاصيل مناسبتكم وسنستقبل طلبكم مباشرة عبر واتساب. الأسعار والمواعيد متاحة بالتواصل.</p><div class="contact-options"><a class="contact-option" href="https://wa.me/966566766562" target="_blank" rel="noopener"><span class="contact-icon" aria-hidden="true">✆</span><span><strong data-i18n="whatsappLabel">واتساب الحجز</strong><small dir="ltr">056 676 6562</small></span></a><a class="contact-option" href="tel:+966559956056"><span class="contact-icon" aria-hidden="true">☎</span><span><strong data-i18n="callLabel">تواصل معنا</strong><small dir="ltr">055 995 6056</small></span></a></div><div class="social-links"><a href="https://www.instagram.com/meweddings/?hl=ar" target="_blank" rel="noopener" aria-label="Instagram">Instagram ↗</a><a href="https://www.tiktok.com/@meweddinghall" target="_blank" rel="noopener" aria-label="TikTok">TikTok ↗</a></div></div><form class="booking-form" id="booking-form"><h3 data-i18n="formTitle">طلب مناسبة</h3><div class="form-grid"><label><span data-i18n="formName">الاسم</span><input name="name" type="text" autocomplete="name" required></label><label><span data-i18n="formPhone">رقم الجوال</span><input name="phone" type="tel" inputmode="tel" autocomplete="tel" dir="ltr" required></label><label><span data-i18n="formOccasion">نوع المناسبة</span><select name="occasion" required><option value="" data-i18n="formChoose">اختر المناسبة</option><option data-i18n="weddings">زواج</option><option data-i18n="marriageContract">عقد قران</option><option data-i18n="graduations">تخرج</option><option data-i18n="babyWelcome">سبوع المولود</option><option data-i18n="concerts">حفلات غنائية</option><option data-i18n="festivals">فعاليات ومهرجانات</option><option data-i18n="birthdays">أعياد ميلاد</option></select></label><label><span data-i18n="formDate">التاريخ المتوقع</span><input name="date" type="date" required></label><label><span data-i18n="formGuests">عدد الضيوف المتوقع</span><input name="guests" type="number" min="1" max="1000" inputmode="numeric"></label><label class="full-field"><span data-i18n="formNotes">تفاصيل إضافية</span><textarea name="notes" rows="3"></textarea></label></div><button class="button form-submit" type="submit"><span data-i18n="formSubmit">إرسال الطلب عبر واتساب</span><span aria-hidden="true">↗</span></button><p class="form-hint" data-i18n="formHint">سيفتح واتساب مع رسالة جاهزة بتفاصيل طلبك.</p></form></div></section>
+    <section class="closing-cta"><div class="shell closing-inner"><p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="closingEyebrow">ننتظر لحظتكم</span><span class="eyebrow-line"></span></p><h2 data-i18n="closingTitle">دعونا نحتفل بكم</h2><p data-i18n="closingText">للاستفسار عن المواعيد والباقات والأسعار، تواصلوا معنا مباشرة.</p><a class="button" href="#booking"><span data-i18n="bookNow">احجز مناسبتك</span><span class="button-arrow" aria-hidden="true">↗</span></a></div></section>
   </main>
 
-  <footer class="site-footer"><div class="shell footer-grid"><div class="footer-brand"><img src="assets/brand-logo.png" alt="شعار قاعة الشرق الأوسط" width="122" height="114"><p data-i18n="footerLine">للمناسبات التي تبقى في الذاكرة.</p></div><div><h3 data-i18n="footerExplore">استكشف</h3><a href="#about" data-i18n="navAbout">عن القاعة</a><a href="gallery.html" data-i18n="navGallery">المعرض</a><a href="#location" data-i18n="navLocation">الموقع</a></div><div><h3 data-i18n="footerContact">تواصل معنا</h3><a href="https://wa.me/966566766562" target="_blank" rel="noopener" dir="ltr">+966 56 676 6562</a><a href="https://www.instagram.com/meweddings/?hl=ar" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/@meweddinghall" target="_blank" rel="noopener">TikTok</a></div></div><div class="shell footer-bottom"><span>© <span id="year"></span> <span data-i18n="copyright">قاعة الشرق الأوسط للإحتفالات</span></span><a href="#top" data-i18n="backTop">العودة للأعلى ↑</a></div></footer>
+  <footer class="site-footer"><div class="shell footer-grid"><div class="footer-brand"><img src="assets/brand-logo-transparent.png" alt="شعار قاعة الشرق الأوسط" width="142" height="132"><p data-i18n="footerLine">للمناسبات التي تبقى في الذاكرة.</p></div><div><h3 data-i18n="footerExplore">استكشف</h3><a href="#about" data-i18n="navAbout">عن القاعة</a><a href="gallery.html" data-i18n="navGallery">المعرض</a><a href="#location" data-i18n="navLocation">الموقع</a><a href="#booking" data-i18n="navBooking">الحجز</a></div><div><h3 data-i18n="footerContact">تواصل معنا</h3><a href="tel:+966559956056" dir="ltr">☎ 055 995 6056</a><a href="https://wa.me/966566766562" target="_blank" rel="noopener" dir="ltr">✆ 056 676 6562</a><a href="https://www.instagram.com/meweddings/?hl=ar" target="_blank" rel="noopener">Instagram ↗</a><a href="https://www.tiktok.com/@meweddinghall" target="_blank" rel="noopener">TikTok ↗</a></div></div><div class="shell footer-bottom"><span>© <span id="year"></span> <span data-i18n="copyright">قاعة الشرق الأوسط للإحتفالات</span></span><a href="#top" data-i18n="backTop">العودة للأعلى ↑</a></div></footer>
+  <div class="mobile-contact-bar"><a href="https://wa.me/966566766562" target="_blank" rel="noopener"><span aria-hidden="true">✆</span><span data-i18n="whatsappLabel">واتساب الحجز</span></a><a href="tel:+966559956056"><span aria-hidden="true">☎</span><span data-i18n="callLabel">تواصل معنا</span></a></div>
 </body>
 </html>
