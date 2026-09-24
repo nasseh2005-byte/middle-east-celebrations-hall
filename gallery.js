@@ -44,7 +44,9 @@
       tab.tabIndex = selected ? 0 : -1;
       if (selected) panel.setAttribute("aria-labelledby", tab.id);
     });
-    count.textContent = `${activeItems.length} ${window.mehall.text(activeTab)}`;
+    count.textContent = language() === "ar"
+      ? `${activeItems.length.toLocaleString("ar-SA")} ${activeTab === "photos" ? "صورة" : "فيديو"}`
+      : `${activeItems.length} ${activeTab}`;
     panel.replaceChildren();
     activeItems.forEach((item, index) => {
       const card = document.createElement("button");
