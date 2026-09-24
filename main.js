@@ -39,8 +39,8 @@
   };
 
   const html = document.documentElement;
-  const savedLang = localStorage.getItem("mehall-language");
-  const savedTheme = localStorage.getItem("mehall-theme");
+  const savedLang = sessionStorage.getItem("mehall-language");
+  const savedTheme = sessionStorage.getItem("mehall-theme");
   let lang = savedLang === "en" ? "en" : "ar";
   let theme = savedTheme === "light" ? "light" : "dark";
 
@@ -85,13 +85,13 @@
 
   document.getElementById("lang-toggle")?.addEventListener("click", () => {
     lang = lang === "ar" ? "en" : "ar";
-    localStorage.setItem("mehall-language", lang);
+    sessionStorage.setItem("mehall-language", lang);
     applyLanguage();
     applyTheme();
   });
   document.getElementById("theme-toggle")?.addEventListener("click", () => {
     theme = theme === "dark" ? "light" : "dark";
-    localStorage.setItem("mehall-theme", theme);
+    sessionStorage.setItem("mehall-theme", theme);
     applyTheme();
   });
 
