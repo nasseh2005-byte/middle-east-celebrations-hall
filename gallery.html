@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101010">
+  <meta name="description" content="المعرض الكامل لصور وفيديوهات قاعة الشرق الأوسط للإحتفالات في جدة.">
+  <title>المعرض | قاعة الشرق الأوسط للإحتفالات</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="main.js"></script>
+  <script defer src="gallery.js"></script>
+</head>
+<body data-page="gallery">
+  <a class="skip-link" href="#main" data-i18n="skip">تخطَّ إلى المحتوى</a>
+  <header class="site-header inner-header" id="top">
+    <div class="shell header-shell">
+      <a class="brand" href="index.html" aria-label="قاعة الشرق الأوسط للإحتفالات"><img src="assets/brand-logo.png" alt="شعار قاعة الشرق الأوسط" width="60" height="60"><span class="brand-text"><strong data-i18n="brand">قاعة الشرق الأوسط</strong><small data-i18n="brandSub">للإحتفالات</small></span></a>
+      <nav class="site-nav" id="site-nav" aria-label="التنقل الرئيسي"><a href="index.html#about" data-i18n="navAbout">عن القاعة</a><a href="index.html#occasions" data-i18n="navOccasions">المناسبات</a><a href="gallery.html" aria-current="page" data-i18n="navGallery">المعرض</a><a href="index.html#reviews" data-i18n="navReviews">التقييمات</a><a href="index.html#location" data-i18n="navLocation">الموقع</a></nav>
+      <div class="header-actions"><button class="icon-button" id="theme-toggle" type="button" aria-label="تفعيل الوضع الفاتح" title="الوضع الفاتح"><span aria-hidden="true">☼</span></button><button class="lang-button" id="lang-toggle" type="button" aria-label="Switch to English">EN</button><a class="button button-small header-book" href="https://wa.me/966566766562?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AD%D8%AC%D8%B2%20%D9%82%D8%A7%D8%B9%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%82%20%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7" target="_blank" rel="noopener" data-i18n="bookNow">احجز مناسبتك</a><button class="menu-button" id="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="فتح القائمة"><span></span><span></span><span></span></button></div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="gallery-hero"><div class="shell"><p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="galleryEyebrow">لحظات من داخل القاعة</span></p><h1 data-i18n="galleryPageTitle">معرض القاعة</h1><p data-i18n="galleryPageIntro">جولة بصرية في أجواء قاعة الشرق الأوسط وتفاصيلها؛ تصفحوا الصور ومقاطع الفيديو.</p></div></section>
+    <section class="gallery-main" aria-label="صور وفيديوهات القاعة"><div class="shell">
+      <div class="gallery-toolbar"><div class="gallery-tabs" role="tablist" aria-label="نوع الوسائط"><button class="gallery-tab" type="button" role="tab" id="photos-tab" aria-controls="gallery-panel" aria-selected="true" data-tab="photos" data-i18n="photos">الصور</button><button class="gallery-tab" type="button" role="tab" id="videos-tab" aria-controls="gallery-panel" aria-selected="false" data-tab="videos" data-i18n="videos">الفيديوهات</button></div><span class="gallery-count" id="gallery-count"></span></div>
+      <div class="full-gallery-grid" id="gallery-panel" role="tabpanel" aria-labelledby="photos-tab"></div>
+      <p class="gallery-credit"><span data-i18n="galleryCredit">مصدر مواد المعرض:</span> <a href="https://zafafworld.net/ar/listings/draft-570ce083-46de-40d8-ac60-ab97fcea04d9" target="_blank" rel="noopener" data-i18n="sourceName">عالم زفاف</a></p>
+    </div></section>
+    <section class="closing-cta"><div class="shell closing-inner"><p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="closingEyebrow">ننتظر لحظتكم</span><span class="eyebrow-line"></span></p><h2 data-i18n="closingTitle">دعونا نحتفل بكم</h2><p data-i18n="closingText">للاستفسار عن المواعيد والباقات والأسعار، تواصلوا معنا مباشرة.</p><a class="button" href="https://wa.me/966566766562?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AD%D8%AC%D8%B2%20%D8%A7%D9%84%D9%82%D8%A7%D8%B9%D8%A9" target="_blank" rel="noopener"><span data-i18n="contactWhatsapp">تواصل عبر واتساب</span><span class="button-arrow" aria-hidden="true">↗</span></a></div></section>
+  </main>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="عرض الوسائط" hidden><button class="lightbox-close" id="lightbox-close" type="button" aria-label="إغلاق">×</button><button class="lightbox-prev" id="lightbox-prev" type="button" aria-label="السابق">‹</button><div class="lightbox-inner" id="lightbox-inner"></div><button class="lightbox-next" id="lightbox-next" type="button" aria-label="التالي">›</button></div>
+
+  <footer class="site-footer"><div class="shell footer-grid"><div class="footer-brand"><img src="assets/brand-logo.png" alt="شعار قاعة الشرق الأوسط" width="122" height="114"><p data-i18n="footerLine">للمناسبات التي تبقى في الذاكرة.</p></div><div><h3 data-i18n="footerExplore">استكشف</h3><a href="index.html#about" data-i18n="navAbout">عن القاعة</a><a href="gallery.html" data-i18n="navGallery">المعرض</a><a href="index.html#location" data-i18n="navLocation">الموقع</a></div><div><h3 data-i18n="footerContact">تواصل معنا</h3><a href="https://wa.me/966566766562" target="_blank" rel="noopener" dir="ltr">+966 56 676 6562</a><a href="https://www.instagram.com/meweddings/?hl=ar" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/@meweddinghall" target="_blank" rel="noopener">TikTok</a></div></div><div class="shell footer-bottom"><span>© <span id="year"></span> <span data-i18n="copyright">قاعة الشرق الأوسط للإحتفالات</span></span><a href="#top" data-i18n="backTop">العودة للأعلى ↑</a></div></footer>
+</body>
+</html>
