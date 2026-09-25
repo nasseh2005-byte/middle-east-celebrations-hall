@@ -15,16 +15,11 @@
   let lastFocus = null;
 
   const sceneNames = {
-    P01: ["تنسيق طاولات الضيوف", "Guest tables"], P02: ["مدخل القاعة والدرج", "Hall entrance and staircase"],
-    P03: ["الممر الرئيسي", "Ceremonial aisle"], P04: ["جلسات الضيوف", "Guest seating"],
-    P05: ["تفاصيل ممر الزفة", "Ceremonial aisle details"], P06: ["اتساع القاعة", "The grand hall"],
-    P07: ["الثريات وإضاءة القاعة", "Chandeliers and lighting"], P09: ["تفاصيل الضيافة", "Hospitality details"],
-    P10: ["تجهيز الطاولات", "Table setting"], P12: ["الثريات من الداخل", "Chandeliers inside the hall"],
-    P13: ["جلسات القاعة", "Hall seating"], P14: ["منصة الحفل", "Celebration stage"],
-    P15: ["تصميم المنصة", "Stage design"], P16: ["الممر إلى المنصة", "Aisle to the stage"],
-    P17: ["الدرج والثريات", "Staircase and chandeliers"], P18: ["تفاصيل الطاولة", "Table details"],
-    P19: ["إضاءة المنصة", "Stage lighting"], P20: ["سقف القاعة", "Hall ceiling"],
-    P21: ["الممر ومنصة الحفل", "Aisle and celebration stage"], P22: ["الكوشة", "Celebration stage decor"]
+    P01: ["الممر ومنصة الحفل", "Aisle and celebration stage"],
+    P02: ["الكوشة والثريات", "Stage and chandeliers"],
+    P03: ["مدخل القاعة", "Hall entrance"],
+    P04: ["جلسات القاعة", "Hall seating"],
+    P05: ["تفاصيل المنصة", "Stage details"]
   };
 
   function language() { return window.mehall?.getLanguage() || "ar"; }
@@ -33,7 +28,6 @@
     return `${window.mehall.text("galleryVideo")} ${String(index + 1).padStart(2, "0")}`;
   }
   function mediaSource(item) {
-    if (item.id === "P02" || item.id === "P07" || item.id === "P21") return `assets/photos/${item.id.toLowerCase()}-large.webp`;
     return item.file;
   }
   function render() {

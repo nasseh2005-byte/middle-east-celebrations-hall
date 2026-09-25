@@ -1,252 +1,44 @@
 {
-  "listing": "https://zafafworld.net/ar/listings/draft-570ce083-46de-40d8-ac60-ab97fcea04d9",
   "items": [
     {
       "id": "P01",
-      "file": "assets/photos/p01.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/117b7df8-9f24-4f54-8713-e0a1c8af06b5/2026-09-05/ZWI117b7df8-9f24-4f54-8713-e0a1c8af06b5_medium.webp"
+      "file": "assets/venue/photos/aisle.webp"
     },
     {
       "id": "P02",
-      "file": "assets/photos/p02.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/16be2f1a-e22d-4183-96dd-8e706c090b28/2026-09-05/ZWI16be2f1a-e22d-4183-96dd-8e706c090b28_medium.webp"
+      "file": "assets/venue/photos/stage-front.webp"
     },
     {
       "id": "P03",
-      "file": "assets/photos/p03.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/287e7a47-d217-42f7-9633-34bebdcaf368/2026-09-05/ZWI287e7a47-d217-42f7-9633-34bebdcaf368_medium.webp"
+      "file": "assets/venue/photos/entrance.webp"
     },
     {
       "id": "P04",
-      "file": "assets/photos/p04.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/28a6cb40-3917-4b0a-bf08-25989cd11030/2026-09-05/ZWI28a6cb40-3917-4b0a-bf08-25989cd11030_medium.webp"
+      "file": "assets/venue/photos/hall-side.webp"
     },
     {
       "id": "P05",
-      "file": "assets/photos/p05.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/47ec167f-3393-4735-b723-3e640fb60be6/2026-09-05/ZWI47ec167f-3393-4735-b723-3e640fb60be6_medium.webp"
-    },
-    {
-      "id": "P06",
-      "file": "assets/photos/p06.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/4a993519-226b-44a3-81ca-6f00b35fe7e7/2026-09-05/ZWI4a993519-226b-44a3-81ca-6f00b35fe7e7_medium.webp"
-    },
-    {
-      "id": "P07",
-      "file": "assets/photos/p07.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/5315d81b-1255-40fe-bef6-5492b3255538/2026-09-05/ZWI5315d81b-1255-40fe-bef6-5492b3255538_medium.webp"
-    },
-    {
-      "id": "P09",
-      "file": "assets/photos/p09.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/5d8b5cda-2135-4bd6-b138-ec746d659ef7/2026-09-05/ZWI5d8b5cda-2135-4bd6-b138-ec746d659ef7_medium.webp"
-    },
-    {
-      "id": "P10",
-      "file": "assets/photos/p10.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/69957360-5b9e-4d8c-96c0-993533fa454d/2026-09-05/ZWI69957360-5b9e-4d8c-96c0-993533fa454d_medium.webp"
-    },
-    {
-      "id": "P12",
-      "file": "assets/photos/p12.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/6b31f352-d19d-4895-8853-6bfb8b612a8d/2026-09-05/ZWI6b31f352-d19d-4895-8853-6bfb8b612a8d_medium.webp"
-    },
-    {
-      "id": "P13",
-      "file": "assets/photos/p13.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/6e1fdcc3-8ec7-41b0-9b31-64e72089876d/2026-09-05/ZWI6e1fdcc3-8ec7-41b0-9b31-64e72089876d_medium.webp"
-    },
-    {
-      "id": "P14",
-      "file": "assets/photos/p14.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/8f12323e-85f4-446d-8ae7-138ae518d78f/2026-09-05/ZWI8f12323e-85f4-446d-8ae7-138ae518d78f_medium.webp"
-    },
-    {
-      "id": "P15",
-      "file": "assets/photos/p15.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/95cae8bc-9cf6-489e-a4ef-7d9b9a3925da/2026-09-05/ZWI95cae8bc-9cf6-489e-a4ef-7d9b9a3925da_medium.webp"
-    },
-    {
-      "id": "P16",
-      "file": "assets/photos/p16.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/bc22d0a1-237d-4c81-ad7c-36c1b615ee1f/2026-09-05/ZWIbc22d0a1-237d-4c81-ad7c-36c1b615ee1f_medium.webp"
-    },
-    {
-      "id": "P17",
-      "file": "assets/photos/p17.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/be381299-8601-48a5-b845-8064b6cb9766/2026-09-05/ZWIbe381299-8601-48a5-b845-8064b6cb9766_medium.webp"
-    },
-    {
-      "id": "P18",
-      "file": "assets/photos/p18.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/c3110d46-d3a2-4a65-80d8-6ed0804f211d/2026-09-05/ZWIc3110d46-d3a2-4a65-80d8-6ed0804f211d_medium.webp"
-    },
-    {
-      "id": "P19",
-      "file": "assets/photos/p19.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/c5adc95b-e612-4c76-b0e8-ebf112b9fc4d/2026-09-05/ZWIc5adc95b-e612-4c76-b0e8-ebf112b9fc4d_medium.webp"
-    },
-    {
-      "id": "P20",
-      "file": "assets/photos/p20.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/df08bc47-8a07-485a-813e-0cd22d794689/2026-09-05/ZWIdf08bc47-8a07-485a-813e-0cd22d794689_medium.webp"
-    },
-    {
-      "id": "P21",
-      "file": "assets/photos/p21.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/ea2822ae-e4a4-4766-85bd-c7018946d1f2/2026-09-05/ZWIea2822ae-e4a4-4766-85bd-c7018946d1f2_medium.webp"
-    },
-    {
-      "id": "P22",
-      "file": "assets/photos/p22.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/f625fa39-3b60-4c2f-bd49-58965f15bf5c/2026-09-05/ZWIf625fa39-3b60-4c2f-bd49-58965f15bf5c_medium.webp"
+      "file": "assets/venue/photos/stage-side.webp"
     },
     {
       "id": "V01",
-      "file": "assets/video-posters/v01.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/0a7469ff-fbff-486c-a6cf-b07a2f7e9f09/2026-09-05/ZWI0a7469ff-fbff-486c-a6cf-b07a2f7e9f09_poster.webp",
-      "video": "https://media.zafafworld.net/zafafworld-media/gallery/0a7469ff-fbff-486c-a6cf-b07a2f7e9f09/2026-09-05/ZWV0a7469ff-fbff-486c-a6cf-b07a2f7e9f09.mp4",
-      "videoFile": "assets/videos/v01.mp4"
+      "file": "assets/venue/posters/chandeliers.webp",
+      "videoFile": "assets/venue/videos/chandeliers.mp4"
     },
     {
       "id": "V02",
-      "file": "assets/video-posters/v02.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/0b097022-05a7-4b8c-9939-8598de6c43e9/2026-09-05/ZWI0b097022-05a7-4b8c-9939-8598de6c43e9_poster.webp",
-      "video": "https://media.zafafworld.net/zafafworld-media/gallery/0b097022-05a7-4b8c-9939-8598de6c43e9/2026-09-05/ZWV0b097022-05a7-4b8c-9939-8598de6c43e9.mp4",
-      "videoFile": "assets/videos/v02.mp4"
+      "file": "assets/venue/posters/stage-decor.webp",
+      "videoFile": "assets/venue/videos/stage-decor.mp4"
     },
     {
       "id": "V03",
-      "file": "assets/video-posters/v03.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/14aab566-b66c-4c7a-a123-8fd60f7a3db5/2026-09-05/ZWI14aab566-b66c-4c7a-a123-8fd60f7a3db5_poster.webp",
-      "video": "https://media.zafafworld.net/zafafworld-media/gallery/14aab566-b66c-4c7a-a123-8fd60f7a3db5/2026-09-05/ZWV14aab566-b66c-4c7a-a123-8fd60f7a3db5.mp4",
-      "videoFile": "assets/videos/v03.mp4"
+      "file": "assets/venue/posters/hall-atmosphere.webp",
+      "videoFile": "assets/venue/videos/hall-atmosphere.mp4"
     },
     {
       "id": "V04",
-      "file": "assets/video-posters/v04.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/162220ce-d5c9-487d-86fa-ec7b94543778/2026-09-05/ZWI162220ce-d5c9-487d-86fa-ec7b94543778_poster.webp",
-      "video": "https://media.zafafworld.net/zafafworld-media/gallery/162220ce-d5c9-487d-86fa-ec7b94543778/2026-09-05/ZWV162220ce-d5c9-487d-86fa-ec7b94543778.mp4",
-      "videoFile": "assets/videos/v04.mp4"
-    },
-    {
-      "id": "V05",
-      "file": "assets/video-posters/v05.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/23f5402d-0f33-4906-9771-4196ce41c243/2026-09-05/ZWI23f5402d-0f33-4906-9771-4196ce41c243_poster.webp",
-      "video": "https://media.zafafworld.net/zafafworld-media/gallery/23f5402d-0f33-4906-9771-4196ce41c243/2026-09-05/ZWV23f5402d-0f33-4906-9771-4196ce41c243.mp4",
-      "videoFile": "assets/videos/v05.mp4"
-    },
-    {
-      "id": "V06",
-      "file": "assets/video-posters/v06.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/2bee9017-1d6c-4030-b488-455734e0398c/2026-09-05/ZWI2bee9017-1d6c-4030-b488-455734e0398c_poster.webp",
-      "video": "https://media.zafafworld.net/zafafworld-media/gallery/2bee9017-1d6c-4030-b488-455734e0398c/2026-09-05/ZWV2bee9017-1d6c-4030-b488-455734e0398c.mp4",
-      "videoFile": "assets/videos/v06.mp4"
-    },
-    {
-      "id": "V07",
-      "file": "assets/video-posters/v07.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/2e5b279f-0413-410a-9896-9b90eeb0cb38/2026-09-05/ZWI2e5b279f-0413-410a-9896-9b90eeb0cb38_poster.webp",
-      "video": "https://media.zafafworld.net/zafafworld-media/gallery/2e5b279f-0413-410a-9896-9b90eeb0cb38/2026-09-05/ZWV2e5b279f-0413-410a-9896-9b90eeb0cb38.mp4",
-      "videoFile": "assets/videos/v07.mp4"
-    },
-    {
-      "id": "V08",
-      "file": "assets/video-posters/v08.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/57305b5e-7f55-4848-9572-f21e8b39425a/2026-09-05/ZWI57305b5e-7f55-4848-9572-f21e8b39425a_poster.webp",
-      "video": "https://media.zafafworld.net/zafafworld-media/gallery/57305b5e-7f55-4848-9572-f21e8b39425a/2026-09-05/ZWV57305b5e-7f55-4848-9572-f21e8b39425a.mp4",
-      "videoFile": "assets/videos/v08.mp4"
-    },
-    {
-      "id": "V09",
-      "file": "assets/video-posters/v09.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/62b297a7-f567-4b79-a195-be57b4febee5/2026-09-05/ZWI62b297a7-f567-4b79-a195-be57b4febee5_poster.webp",
-      "video": "https://media.zafafworld.net/zafafworld-media/gallery/62b297a7-f567-4b79-a195-be57b4febee5/2026-09-05/ZWV62b297a7-f567-4b79-a195-be57b4febee5.mp4",
-      "videoFile": "assets/videos/v09.mp4"
-    },
-    {
-      "id": "V10",
-      "file": "assets/video-posters/v10.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/6f9897ed-0955-436b-8e27-55e0dba71d41/2026-09-05/ZWI6f9897ed-0955-436b-8e27-55e0dba71d41_poster.webp",
-      "video": "https://media.zafafworld.net/zafafworld-media/gallery/6f9897ed-0955-436b-8e27-55e0dba71d41/2026-09-05/ZWV6f9897ed-0955-436b-8e27-55e0dba71d41.mp4",
-      "videoFile": "assets/videos/v10.mp4"
-    },
-    {
-      "id": "V11",
-      "file": "assets/video-posters/v11.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/8ca61e43-da1c-49d4-9ad3-8e54c8a26c75/2026-09-05/ZWI8ca61e43-da1c-49d4-9ad3-8e54c8a26c75_poster.webp",
-      "video": "https://media.zafafworld.net/zafafworld-media/gallery/8ca61e43-da1c-49d4-9ad3-8e54c8a26c75/2026-09-05/ZWV8ca61e43-da1c-49d4-9ad3-8e54c8a26c75.mp4",
-      "videoFile": "assets/videos/v11.mp4"
-    },
-    {
-      "id": "V12",
-      "file": "assets/video-posters/v12.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/90b96c31-6476-4533-8a8e-dcced8f1e8db/2026-09-05/ZWI90b96c31-6476-4533-8a8e-dcced8f1e8db_poster.webp",
-      "video": "https://media.zafafworld.net/zafafworld-media/gallery/90b96c31-6476-4533-8a8e-dcced8f1e8db/2026-09-05/ZWV90b96c31-6476-4533-8a8e-dcced8f1e8db.mp4",
-      "videoFile": "assets/videos/v12.mp4"
-    },
-    {
-      "id": "V14",
-      "file": "assets/video-posters/v14.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/9eb4c321-e3b7-4d16-a4ab-ccefa32a2dc2/2026-09-05/ZWI9eb4c321-e3b7-4d16-a4ab-ccefa32a2dc2_poster.webp",
-      "video": "https://media.zafafworld.net/zafafworld-media/gallery/9eb4c321-e3b7-4d16-a4ab-ccefa32a2dc2/2026-09-05/ZWV9eb4c321-e3b7-4d16-a4ab-ccefa32a2dc2.mp4",
-      "videoFile": "assets/videos/v14.mp4"
-    },
-    {
-      "id": "V15",
-      "file": "assets/video-posters/v15.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/ae646acf-d1ef-4795-9fad-34d9fb5b40a6/2026-09-05/ZWIae646acf-d1ef-4795-9fad-34d9fb5b40a6_poster.webp",
-      "video": "https://media.zafafworld.net/zafafworld-media/gallery/ae646acf-d1ef-4795-9fad-34d9fb5b40a6/2026-09-05/ZWVae646acf-d1ef-4795-9fad-34d9fb5b40a6.mp4",
-      "videoFile": "assets/videos/v15.mp4"
-    },
-    {
-      "id": "V17",
-      "file": "assets/video-posters/v17.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/c535f447-3756-43fe-85c0-d1390eda4219/2026-09-05/ZWIc535f447-3756-43fe-85c0-d1390eda4219_poster.webp",
-      "video": "https://media.zafafworld.net/zafafworld-media/gallery/c535f447-3756-43fe-85c0-d1390eda4219/2026-09-05/ZWVc535f447-3756-43fe-85c0-d1390eda4219.mp4",
-      "videoFile": "assets/videos/v17.mp4"
-    },
-    {
-      "id": "V18",
-      "file": "assets/video-posters/v18.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/cb213869-78e8-4362-b1d0-f6069e9b2bbf/2026-09-05/ZWIcb213869-78e8-4362-b1d0-f6069e9b2bbf_poster.webp",
-      "video": "https://media.zafafworld.net/zafafworld-media/gallery/cb213869-78e8-4362-b1d0-f6069e9b2bbf/2026-09-05/ZWVcb213869-78e8-4362-b1d0-f6069e9b2bbf.mp4",
-      "videoFile": "assets/videos/v18.mp4"
-    },
-    {
-      "id": "V19",
-      "file": "assets/video-posters/v19.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/cdc01554-8d3d-40db-931f-f5659d69f0c3/2026-09-05/ZWIcdc01554-8d3d-40db-931f-f5659d69f0c3_poster.webp",
-      "video": "https://media.zafafworld.net/zafafworld-media/gallery/cdc01554-8d3d-40db-931f-f5659d69f0c3/2026-09-05/ZWVcdc01554-8d3d-40db-931f-f5659d69f0c3.mp4",
-      "videoFile": "assets/videos/v19.mp4"
-    },
-    {
-      "id": "V20",
-      "file": "assets/video-posters/v20.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/cdfcf54e-ec5e-4123-bf22-1d1dc4278a9a/2026-09-05/ZWIcdfcf54e-ec5e-4123-bf22-1d1dc4278a9a_poster.webp",
-      "video": "https://media.zafafworld.net/zafafworld-media/gallery/cdfcf54e-ec5e-4123-bf22-1d1dc4278a9a/2026-09-05/ZWVcdfcf54e-ec5e-4123-bf22-1d1dc4278a9a.mp4",
-      "videoFile": "assets/videos/v20.mp4"
-    },
-    {
-      "id": "V21",
-      "file": "assets/video-posters/v21.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/cf3c4a2a-1a6a-43e1-8245-a958c09531f9/2026-09-05/ZWIcf3c4a2a-1a6a-43e1-8245-a958c09531f9_poster.webp",
-      "video": "https://media.zafafworld.net/zafafworld-media/gallery/cf3c4a2a-1a6a-43e1-8245-a958c09531f9/2026-09-05/ZWVcf3c4a2a-1a6a-43e1-8245-a958c09531f9.mp4",
-      "videoFile": "assets/videos/v21.mp4"
-    },
-    {
-      "id": "V22",
-      "file": "assets/video-posters/v22.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/f7c1de0e-2db9-48eb-b5be-99f78c889c0e/2026-09-05/ZWIf7c1de0e-2db9-48eb-b5be-99f78c889c0e_poster.webp",
-      "video": "https://media.zafafworld.net/zafafworld-media/gallery/f7c1de0e-2db9-48eb-b5be-99f78c889c0e/2026-09-05/ZWVf7c1de0e-2db9-48eb-b5be-99f78c889c0e.mp4",
-      "videoFile": "assets/videos/v22.mp4"
-    },
-    {
-      "id": "V23",
-      "file": "assets/video-posters/v23.webp",
-      "source": "https://media.zafafworld.net/zafafworld-media/gallery/ff0d9a65-25c5-41e1-b7ad-c9ffd118f3da/2026-09-05/ZWIff0d9a65-25c5-41e1-b7ad-c9ffd118f3da_poster.webp",
-      "video": "https://media.zafafworld.net/zafafworld-media/gallery/ff0d9a65-25c5-41e1-b7ad-c9ffd118f3da/2026-09-05/ZWVff0d9a65-25c5-41e1-b7ad-c9ffd118f3da.mp4",
-      "videoFile": "assets/videos/v23.mp4"
+      "file": "assets/venue/posters/floral-details.webp",
+      "videoFile": "assets/venue/videos/floral-details.mp4"
     }
   ]
 }
